@@ -15,6 +15,8 @@ namespace AmazingRace.DAL
 
         }
         public DbSet<Staff> Staffs { get; set; }
+        public DbSet<UserActiviation> UserActivations { get; set; }
+
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
